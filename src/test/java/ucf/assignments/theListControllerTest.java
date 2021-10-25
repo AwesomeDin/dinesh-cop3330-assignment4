@@ -65,7 +65,7 @@ class theListControllerTest {
     }
 
     @Test
-    void buttonImportList() {
+    void buttonLoadList() {
         //This test will work for both 19 and 20
 
         //grab the file and file path
@@ -74,7 +74,7 @@ class theListControllerTest {
     }
 
     @Test
-    void buttonExportList() {
+    void buttonSaveList() {
         //This test will work for both 17 and 18
 
         //grab the list of items and filepath
@@ -101,7 +101,7 @@ class theListControllerTest {
     }
 
     @Test
-    void buttonClearList() {
+    void buttonRemoveList() {
         //restart the currentlist
         //check to see that the currentlist is empty
     }

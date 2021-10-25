@@ -52,15 +52,6 @@ public class theListController {
         //refresh the table with the full list
     }
 
-    public void buttonImportList(ActionEvent actionEvent) {
-        //get external text file
-        //import that textfile into the table of the current tab
-    }
-
-    public void buttonExportList(ActionEvent actionEvent) {
-        //export current tab table as text file
-    }
-
     public void buttonChangeTitle(ActionEvent actionEvent) {
         //Changes title of the current tabbed list
     }
@@ -70,7 +61,16 @@ public class theListController {
         //allows for management of multiple individual lists
     }
 
-    public void buttonClearList(ActionEvent actionEvent) {
+    public void buttonSaveList(ActionEvent actionEvent) {
+        //export current tab table as text file
+    }
+
+    public void buttonLoadList(ActionEvent actionEvent) {
+        //get external text file
+        //import that textfile into the table of the current tab
+    }
+
+    public void buttonRemoveTab(ActionEvent actionEvent) {
         //allows the removal of an existing list
     }
 }
