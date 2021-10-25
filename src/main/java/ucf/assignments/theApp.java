@@ -7,6 +7,11 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
+/*
+ *  UCF COP3330 Fall 2021 Assignment 4 Solution
+ *  Copyright 2021 Rithvik Dinesh
+ */
+
 public class theApp extends Application {
     @Override
     public void start(Stage stage) throws IOException {
