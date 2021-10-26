@@ -20,10 +20,6 @@ public class theListController {
     //initialize the table using setCellValueFactory
     //update the fields to edit in the table itself
 
-    public void tester() {
-        System.out.println("hello");
-    }
-
     @FXML
     public void buttonAddItem(ActionEvent actionEvent) {
         //adds a list item to the table
