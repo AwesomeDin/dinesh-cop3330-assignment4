@@ -14,7 +14,7 @@ public class ToDoListItemManagement {
         return theList;
     }
 
-    public static ObservableList<ToDoListItem> deleteItem(ObservableList<ToDoListItem> toDelete, ObservableList<ToDoListItem> theList) {
+    public static ObservableList<ToDoListItem> removeItem(ObservableList<ToDoListItem> toDelete, ObservableList<ToDoListItem> theList) {
         //loop to delete the item that was selected from the list passed in
         return theList;
     }
